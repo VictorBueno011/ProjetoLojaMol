@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+p, li {
+    font-family: ubuntu ;
+}
+h1, h2, h3, h4{
+    font-family: teko;
+}
+.principal{
+    
+    background-color: #83968F;
+    width: 100%;
+    height: 90%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    
+    padding: 5px;
+    display: flex;
+}
+li{
+    
+    display: flex;
+    padding: 10px;
+}
+.titulo{
+    margin: auto;
+    max-width: 65%;
+    text-align: center;
+    font-size: 2rem;
+}   
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.btn{
+    color: white;
+    border: none;
+    background-color: #5CB85C;
+    border-radius: 20px;
+    width:15%;
+    height: 6%;
+    margin-top: 10px;
+    /* margin-left: 50%; */
+   
+}
+.btn:hover{
+    animation: pulse 0.7s infinite;
+    background-color: #215e21; 
+    cursor: pointer;
+}
+
+
+    
+.imgButton{
+    text-align: center;
+}
+.imgButton img{
+    margin-top: 5%;
+    width: 35%;
+}
+.quemSomos{
+    width: 100%;
+    /* height: 50%; */
+
+}
+.titulo-quemsomos{
+    color: black;
+}
+P{
+    font-size: 20px;
+    color: black;
+}
+.conteudoQuemSomos{
+    
+    padding: 5%;
+    
+}
+.titulo-quemsomos{
+    font-size: 40px;
+}
+.imgLoja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #83968F;
+}
+.ferramentas{
+    background-color: #AABCC0;
+    display: flex;
+    width: 100%;
+}
+.titulo_ferramentas{
+    font-size: 40px;
+}
+.paragrafoFerramentas{
+    font-size: 20px;
+    width: 60%;
+}
+.ferramentas_texto{
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 5%;
+}
+.ferramentas_itens{
+    width: 50%;
+}
+.itens{
+    flex-direction: column;
+}
+.ul_itens{
+    color: white;
+    font-weight: bold;
+    margin-top: 10%;
+    font-size: 23px;
+    flex-direction: column;
+
+}
+.nossa_marca{
+    position: relative;
+    display:flex;
+    color: white;
+    background-color: black;
+    width: 100%;
+    /* height: 1000px; */
+}
+.titulo_nossa_marca{
+    font-family: "Faster One";
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    padding:2px;
+    margin: 0;
+    font-size: 71px;
+    font-weight: 500;
+    letter-spacing: 15px;
+    color: white;
+    background-color: black;
+    text-align: center;
+   
+}
+
+.div1_nossa_marca{
+     display: flex;
+     flex-direction: column;
+     margin-top: 100px;
+     margin-bottom: 0;
+    text-align: left;
+    align-items: center;   
+    display:flex ;
+    color: white;
+    width: 70%;
+    
+}
+.titulo_revenda{
+    text-align: center;
+    font-size: 45px;
+}
+.paragrafo_nossa_marca{
+    line-height:35px;
+    font-size: 20px;
+    max-width: 500px;
+    max-height: 900%;
+    color: white;
+}
+
+.imgNossaMarca{
+    background-color: #5CB85C;
+    display: flex;
+    width: 100%;
+    height: 1000px;
+
+}
+.saiba_mais{
+    top: 90%;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: red;   
+    border-radius: 10px;
+}
+.saiba_mais:hover{
+    cursor: pointer;
+    color: black;
+    animation: pulse 0.7s infinite;
+    background-color: aqua;
+    
+}
+.produtos{
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 100%;
+   
+    position: relative;
+}
+#titulo_produtos{
+    margin-top: -15px;
+    margin-bottom: 10%;
+    font-size: 3.5em;
+    width: 100%;
+    
+
+}
+.container_produtos{
+    text-align: center;
+    padding: 10%;
+}
+.img_produtos{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 55px;
+    display: inline-block;
+}
+.img_produtos:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.assistencia{
+    color: white;
+    width: 100%;
+    height: 900px;
+    background-color: #424242;
+    padding-top: 10px ;
+    position: relative;
+    
+}
+.assistencia p{
+    color: white;
+    max-width: 90%;
+}
+.div_titulo{
+    font-size: 2em;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    /* max-width: 90%; */
+    align-self:flex-start ;  
+}
+.div_titulo h2{
+    padding: 1rem;
+    margin: auto;
+}
+.div_titulo p{
+    margin: auto;
+}
+#p_assistencia{
+    color: white;
+    font-weight: 400;
+    max-width: 600px;
+}
+
+#div1{
+    float: left;
+    margin-top: 15%;
+    margin-left: 7%;
+    order: -1;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    bottom: 25%;
+    
+}
+#div1 h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+#div2{
+    float: right;
+    margin-top: 15%;
+    margin-right:7%;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    bottom: 25%;
+    left: 60%;
+}
+#div2 h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+.locacao{
+    /* display: flex; */
+    padding-top: 5%;
+    width: 100%;
+    background-image: linear-gradient(#444343,#6D999E );
+    color: white;
+    display:flex ;
+    
+    flex-wrap: wrap;
+    
+}
+.div_locacao{
+    max-width:50%;
+    float: left;
+    margin-left: 5%;
+
+}
+.locacao img{
+    padding: 1%;
+    height: 45%; 
+    margin-right: 5%;
+    float: right;
+}
+.div_locacao h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.div_locacao p{
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2rem;
+}
+.contato{
+    background-color: #393C3C;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-around;
+}
+.divContato1{
+    text-align: center;
+}
+.contato h3{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.8rem;
+    text-align: left;
+}
+.contato p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.divContato2{
+    align-self: center;
+}
+.divContato2 button{
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    height: 50px;
+}
+.divContato2 button:hover{
+    background-color:#00BFFF ;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
